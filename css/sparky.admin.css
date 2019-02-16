@@ -1,0 +1,70 @@
+/*
+@package sparky theme
+*/
+
+.sparky_theme_preview,
+.sparky_theme_general_form {
+  float: left;
+}
+
+.sparky_theme_preview {
+  width: 280px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.sparky_sidebar {
+  display: block;
+  text-align: center;
+}
+
+.sparky_theme_username,
+.sparky_theme_description {
+  font-weight: 100;
+  color: #fff;
+}
+h1.sparky_theme_username {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+h2.sparky_theme_description {
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+
+.sparky-icon-sidebar {
+  color: rgb(255, 255, 255);
+  margin: 0 2px;
+}
+.sparky-icon-sidebar::before {
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+}
+.sparky-icon-sidebar--gplus {
+  margin-left: 8px;
+}
+.sparky-icon-button::before {
+  margin-top: 3px;
+  margin-left: -3px;
+}
+
+.image_container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile_picture {
+  width: 122px;
+  height: 122px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

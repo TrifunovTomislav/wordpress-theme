@@ -1,0 +1,57 @@
+.sparky-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "sparky-icon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sparky-logo:before {
+  content: "\e90d";
+}
+.sparky-chat-bubble-dots:before {
+  content: "\e900";
+}
+.sparky-cheveron-left:before {
+  content: "\e901";
+}
+.sparky-cheveron-right:before {
+  content: "\e902";
+}
+.sparky-close:before {
+  content: "\e903";
+}
+.sparky-edit-pencil:before {
+  content: "\e904";
+}
+.sparky-link:before {
+  content: "\e905";
+}
+.sparky-menu:before {
+  content: "\e906";
+}
+.sparky-photo:before {
+  content: "\e907";
+}
+.sparky-search:before {
+  content: "\e908";
+}
+.sparky-share-alt:before {
+  content: "\e909";
+}
+.sparky-tag:before {
+  content: "\e90a";
+}
+.sparky-video-camera:before {
+  content: "\e90b";
+}
+.sparky-volume-up:before {
+  content: "\e90c";
+}
